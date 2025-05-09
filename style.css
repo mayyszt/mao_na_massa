@@ -1,10 +1,5 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
   body {
+
     font-family: Arial, sans-serif;
     background-color: #1f1f1f;
     color: #ccc;
@@ -16,10 +11,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 80px 50px 20px;
     background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(grão.png);
   }
-
+  
   header .logo {
     font-size: 20px;
     color: #fff;
@@ -84,12 +80,12 @@
     cursor: pointer;
   }
 
-  .signup-btn {
+  .cadastrar-se {
     background-color: #ccc;
     color: #333;
   }
 
-  .login-btn {
+  .entrar {
     background-color: #555;
     color: #fff;
   }
