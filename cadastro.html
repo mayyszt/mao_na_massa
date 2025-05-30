@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Mondo Della Caffeine</title>
+  <link rel="stylesheet" href="cadastro.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    
+    <a href="index.html" class="home-button">
+        <i class="fas fa-home"></i> Mondo Della Caffeine
+      </a>
+
+  <header>
+    <h1>Crie sua conta</h1>
+  </header>
+
+  <div class="form-container">
+    <form action="#" method="POST">
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required>
+
+      <label for="confirmar">Confirmar senha:</label>
+      <input type="password" id="confirmar" name="confirmar" placeholder="Repita a senha" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" placeholder="Rua, número, cidade">
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Mondo Della Caffeine — Todos os direitos reservados.
+  </footer>
 </body>
 </html>
